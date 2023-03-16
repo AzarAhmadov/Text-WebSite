@@ -10,10 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-  />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -29,23 +26,9 @@
                         <ul>
                             <li><a href="index.html"> Ana sayfa </a></li>
                             <li><a href="hakkimizda.html"> Hakkımızda </a></li>
-                            <li><a href="hizmetlerimiz.html"> Hizmetler </a>
-                                <ul>
-                                    <li><a href="#"> Sub menu </a></li>
-                                    <li><a href="#"> Sub menu </a></li>
-                                    <li><a href="#"> Sub menu </a>
-                                        <ul>
-                                            <li><a href="#"> Sub menu </a></li>
-                                            <li><a href="#"> Sub menu </a></li>
-                                            <li><a href="#"> Sub menu </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#"> Sub menu </a></li>
-                                    <li><a href="#"> Sub menu </a></li>
-                                </ul>
-                            </li>
+                            <li><a href="hizmetlerimiz.html"> Hizmetler </a></li>
                             <li><a href="blog.html"> Blog </a></li>
-                            <li><a href="#"> İletişim </a></li>
+                            <li><a href="iletisim.html"> İletişim </a></li>
                         </ul>
                     </nav>
                     <div class="right-item">
@@ -74,7 +57,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h3 class="banner-title">
-                            Hizmetlerimiz
+                            Hakkımızda
                         </h3>
                         <p class="banner-simple-title">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, lectus magna <br>
@@ -85,7 +68,9 @@
             </div>
         </section>
     </header>
+
     <main>
+
         <section id="hakkimizda2">
             <div class="container">
                 <h3 class="hk-title">
@@ -169,9 +154,9 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
         </section>
+
         <section id="mobil-menu">
             <div class="mobil-container">
                 <nav>
@@ -179,7 +164,12 @@
                         <i class="fas fa-times closeBtn"></i>
                         <li><a href="index.html"> Ana Sayfa </a></li>
                         <li><a href="hakkimizda.html"> Hakkımızda </a></li>
-                        <li><a href="#" class="open-sub"> Hizmetler <svg xmlns="http://www.w3.org/2000/svg" width="24"  height="24" style=" position: absolute; right:120px; fill: rgba(0, 0, 0, 1);"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>  </a></li>
+                        <li><a href="#" class="open-sub"> Hizmetler <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" style=" position: absolute; right:120px; fill: rgba(0, 0, 0, 1);">
+                                    <path
+                                        d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z">
+                                    </path>
+                                </svg> </a></li>
                         <li><a href="blog.html"> Blog </a> </li>
                         <li><a href="iletisim.html"> İletişim </a></li>
                     </ul>
@@ -210,6 +200,7 @@
                 </nav>
             </div>
         </section>
+
         <section id="swiper">
             <h3 class="hk-title">
                 Yönetim ekibimiz
@@ -263,6 +254,7 @@
                 </div>
             </div>
         </section>
+        
     </main>
 
     <footer id="footer" class="footer">
@@ -348,19 +340,16 @@
                         </span>
                         <ul class="footer-list-item">
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">Hakkımızda </a>
+                                <a class="footer-linkarea" href="hakkimizda.html">Hakkımızda </a>
                             </li>
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">Hizmetlerimiz</a>
+                                <a class="footer-linkarea" href="hizmetlerimiz.html">Hizmetlerimiz</a>
                             </li>
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">Blog </a>
+                                <a class="footer-linkarea" href="blog.html">Blog </a>
                             </li>
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">İletişim </a>
-                            </li>
-                            <li class="footer-list">
-                                <a class="footer-linkarea" href="#"> Haberler </a>
+                                <a class="footer-linkarea" href="iletisim.html">İletişim </a>
                             </li>
                         </ul>
                     </div>
@@ -414,33 +403,35 @@
             </div>
         </div>
     </footer>
+
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    300:{
-      slidesPerView: 1,
-      spaceBetweenSlides: 30
-    },
-    499: {
-        slidesPerView: 2,
-        spaceBetweenSlides: 30
-    },
-    
-    999: {
-        slidesPerView: 3,
-        spaceBetweenSlides: 40
-    }
-}
-});
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 30
+                },
+                499: {
+                    slidesPerView: 2,
+                    spaceBetweenSlides: 30
+                },
+
+                999: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 40
+                }
+            }
+        });
     </script>
     <script src="assets/mainJs/main.js"></script>
 
 </body>
+
 </html>

@@ -13,32 +13,18 @@
 </head>
 
 <body>
-    <header id="header">
+    <header id="header" class="Header">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="header-item">
-                        <a class="logo" href="#"> Texh </a>
+                        <a class="logo" href="index.html"> Texh </a>
                     </div>
                     <nav>
                         <ul>
                             <li><a href="index.html"> Ana sayfa </a></li>
                             <li><a href="hakkimizda.html"> Hakkımızda </a></li>
-                            <li><a href="hizmetlerimiz.html"> Hizmetler </a>
-                                <ul>
-                                    <li><a href="#"> Sub menu </a></li>
-                                    <li><a href="#"> Sub menu </a></li>
-                                    <li><a href="#"> Sub menu </a>
-                                        <ul>
-                                            <li><a href="#"> Sub menu </a></li>
-                                            <li><a href="#"> Sub menu </a></li>
-                                            <li><a href="#"> Sub menu </a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#"> Sub menu </a></li>
-                                    <li><a href="#"> Sub menu </a></li>
-                                </ul>
-                            </li>
+                            <li><a href="hizmetlerimiz.html"> Hizmetler </a></li>
                             <li><a href="blog.html"> Blog </a></li>
                             <li><a href="iletisim.html"> İletişim </a></li>
                         </ul>
@@ -63,6 +49,22 @@
             </div>
         </div>
         <i class="fas fa-bars openMenu"></i>
+
+        <section id="global-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="banner-title">
+                            Hakkımızda
+                        </h3>
+                        <p class="banner-simple-title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, lectus magna <br>
+                            fringilla urna, porttitor
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
@@ -73,33 +75,9 @@
                         <i class="fas fa-times closeBtn"></i>
                         <li><a href="index.html"> Ana Sayfa </a></li>
                         <li><a href="hakkimizda.html"> Hakkımızda </a></li>
-                        <li><a href="#" class="open-sub"> Hizmetler <svg xmlns="http://www.w3.org/2000/svg" width="24"  height="24" style=" position: absolute; right:120px; fill: rgba(0, 0, 0, 1);"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>  </a></li>
+                        <li><a href="hizmetlerimiz.html"> Hizmetlerimiz </a></li>
                         <li><a href="blog.html"> Blog </a> </li>
                         <li><a href="iletisim.html"> İletişim </a></li>
-                    </ul>
-
-                    <ul class="list-second">
-                        <i class="fas fa-times closeBtn"></i>
-                        <div class="abs-div">
-                            <i class="fas fa-chevron-left prevBtn"></i>
-                            <span>Geriye Dön</span>
-                        </div>
-                        <li><a href="#"> Sub menu </a></li>
-                        <li><a href="#"> Sub menu </a></li>
-                        <li><a href="#" class="open-sub2"> Sub menu </a></li>
-                        <li><a href="#"> Sub menu </a></li>
-                        <li><a href="#"> Sub menu </a></li>
-                    </ul>
-
-                    <ul class="list-three">
-                        <i class="fas fa-times closeBtn"></i>
-                        <div class="abs-div2">
-                            <i class="fas fa-chevron-left prevBtn"></i>
-                            <span>Geriye Dön</span>
-                        </div>
-                        <li><a href="#"> Sub menu </a></li>
-                        <li><a href="#"> Sub menu </a></li>
-                        <li><a href="#"> Sub menu </a></li>
                     </ul>
                 </nav>
             </div>
@@ -627,19 +605,16 @@
                         </span>
                         <ul class="footer-list-item">
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">Hakkımızda </a>
+                                <a class="footer-linkarea" href="hakkimizda.html">Hakkımızda </a>
                             </li>
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">Hizmetlerimiz</a>
+                                <a class="footer-linkarea" href="hizmetlerimiz.html">Hizmetlerimiz</a>
                             </li>
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">Blog </a>
+                                <a class="footer-linkarea" href="blog.html">Blog </a>
                             </li>
                             <li class="footer-list">
-                                <a class="footer-linkarea" href="#">İletişim </a>
-                            </li>
-                            <li class="footer-list">
-                                <a class="footer-linkarea" href="#"> Haberler </a>
+                                <a class="footer-linkarea" href="iletisim.html">İletişim </a>
                             </li>
                         </ul>
                     </div>
@@ -693,6 +668,7 @@
             </div>
         </div>
     </footer>
+    
 
     <script src="assets/mainJs/main.js"></script>
 </body>

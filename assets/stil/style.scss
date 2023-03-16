@@ -306,7 +306,6 @@ label {
                     .header-item {
 
                         .logo {
-                            font-family: Sofia Pro;
                             font-style: normal;
                             font-weight: 600;
                             font-size: 50px;
@@ -339,61 +338,6 @@ label {
 
                                 &:last-child {
                                     margin-right: 0;
-                                }
-
-                                >ul {
-                                    transition: 400ms all;
-                                    z-index: 10;
-                                    opacity: 0;
-                                    visibility: hidden;
-                                    position: absolute;
-                                    top: 30px;
-                                    width: 140px;
-                                    height: 220px;
-                                    background: rgba(255, 166, 0, 0.932);
-                                    left: 0;
-                                    padding: 0;
-                                    border-radius: 10px;
-                                    display: flex;
-                                    flex-direction: column;
-                                    justify-content: space-between;
-                                    padding: 15px 15px;
-                                    transform: translateX(50px);
-
-                                    >li {
-                                        border-bottom: 1px solid rgba(255, 255, 255, 0.397);
-
-                                        a {
-                                            color: #fff;
-                                        }
-
-                                        position: relative;
-
-                                        &:hover ul {
-                                            opacity: 1 !important;
-                                        }
-
-                                        ul {
-                                            opacity: 0 !important;
-                                            transition: 300ms all;
-                                            align-items: center;
-                                            border-radius: 10px;
-                                            padding: 15px 10px;
-                                            display: flex;
-                                            flex-direction: column;
-                                            justify-content: space-between;
-                                            width: 140px;
-                                            height: 140px;
-                                            position: absolute;
-                                            right: -155px;
-                                            top: -17px;
-                                            background: rgba(255, 166, 0, 0.932);
-
-                                            li {
-                                                border-bottom: 1px solid rgba(255, 255, 255, 0.397);
-                                            }
-                                        }
-                                    }
                                 }
 
                                 a {
@@ -464,15 +408,6 @@ label {
 
         main {
 
-            #map {
-
-                height: 589px;
-                background-size: cover;
-                width: 100%;
-                background-repeat: no-repeat;
-                background-image: url('../img/Ekran\ şəkli\ 2021-08-31\ 232628\ 1.png');
-            }
-
             #form {
                 background: #F8F8F8;
                 padding-top: 138px;
@@ -495,9 +430,8 @@ label {
                                     font-family: Roboto;
                                     font-style: normal;
                                     font-weight: normal;
-                                    font-size: 24px;
+                                    font-size: 20px;
                                     line-height: 28px;
-
                                     color: #7C7C7C;
                                 }
 
@@ -1051,25 +985,19 @@ label {
                             left: 0;
                             z-index: 4000;
                             width: 100%;
-                            height: 100vh;
+                            height: 100%;
                             background: #fff;
                             padding: 0;
-                            transition: 300ms all;
+                            transition: 400ms all;
 
                             li {
-                                border-top: 1px solid rgba(0, 0, 0, 0.315);
                                 padding: 20px 0;
-                                width: 95%;
-
-                                &:last-child {
-                                    border-bottom: 1px solid rgba(0, 0, 0, 0.315) !important;
-                                }
 
                                 a {
                                     font-family: MADE Tommy Soft Medium;
                                     font-style: normal;
                                     font-weight: normal;
-                                    font-size: 22px;
+                                    font-size: 25px;
                                     line-height: 116%;
                                     color: #000000;
                                     display: flex;
@@ -1081,7 +1009,7 @@ label {
                             .closeBtn {
                                 position: absolute;
                                 top: 20px;
-                                font-size: 25px;
+                                font-size: 35px;
                                 color: red;
                                 right: 25px;
                                 cursor: pointer;
@@ -1090,147 +1018,6 @@ label {
                             &.active {
                                 top: 0;
                             }
-                        }
-
-                        .list-second {
-                            transition: 500ms all;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            flex-direction: column;
-                            position: fixed;
-                            top: -100%;
-                            left: 0;
-                            z-index: 4000;
-                            width: 100%;
-                            height: 100vh;
-                            background: #fff;
-                            padding: 0;
-                            transition: 300ms all;
-
-                            .closeBtn {
-                                position: absolute;
-                                top: 20px;
-                                font-size: 25px;
-                                color: red;
-                                right: 25px;
-                                cursor: pointer;
-                            }
-
-                            &.active {
-                                top: 0;
-                            }
-
-                            li {
-                                border-top: 1px solid rgba(0, 0, 0, 0.315);
-                                padding: 20px 0;
-                                width: 95%;
-
-                                &:last-child {
-                                    border-bottom: 1px solid rgba(0, 0, 0, 0.315) !important;
-                                }
-
-                                a {
-                                    font-family: MADE Tommy Soft Medium;
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 22px;
-                                    line-height: 116%;
-                                    color: #000000;
-                                    display: flex;
-                                    white-space: nowrap;
-                                    justify-content: center;
-                                }
-                            }
-
-                            .abs-div {
-                                position: absolute;
-                                left: 15px;
-                                top: 100px;
-                                display: flex;
-                                align-items: center;
-
-                                i {
-                                    font-size: 20px;
-                                }
-
-                                span {
-                                    font-family: MADE Tommy Soft Medium;
-                                    font-size: 18px;
-                                    margin-left: 5px;
-                                }
-                            }
-                        }
-
-                        .list-three {
-                            transition: 500ms all;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            flex-direction: column;
-                            position: fixed;
-                            top: -100%;
-                            left: 0;
-                            z-index: 4000;
-                            width: 100%;
-                            height: 100vh;
-                            background: #fff;
-                            padding: 0;
-                            transition: 300ms all;
-
-                            .closeBtn {
-                                position: absolute;
-                                top: 20px;
-                                font-size: 25px;
-                                color: red;
-                                right: 25px;
-                                cursor: pointer;
-                            }
-
-                            li {
-                                border-top: 1px solid rgba(0, 0, 0, 0.315);
-                                padding: 20px 0;
-                                width: 95%;
-
-                                &:last-child {
-                                    border-bottom: 1px solid rgba(0, 0, 0, 0.315) !important;
-                                }
-
-                                a {
-                                    font-family: MADE Tommy Soft Medium;
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 22px;
-                                    line-height: 116%;
-                                    color: #000000;
-                                    display: flex;
-                                    white-space: nowrap;
-                                    justify-content: center;
-                                }
-                            }
-
-                            .abs-div2 {
-                                position: absolute;
-                                left: 15px;
-                                top: 150px;
-                                display: flex;
-                                align-items: center;
-
-                                i {
-                                    font-size: 20px;
-                                }
-
-                                span {
-                                    font-family: MADE Tommy Soft Medium;
-                                    font-size: 18px;
-                                    margin-left: 5px;
-                                }
-                            }
-
-                            &.active {
-                                top: 0;
-                            }
-
                         }
                     }
                 }
@@ -1239,9 +1026,9 @@ label {
             .banner {
                 background-image: url('../svg/ana\ sayfa\ arka\ plan.png');
                 width: 100%;
+                background-size: cover;
                 background-repeat: no-repeat;
                 position: absolute;
-                background-size: 100% 691.01px;
                 top: 0;
                 bottom: 0;
 
@@ -1276,7 +1063,6 @@ label {
                                 }
 
                                 .banner-btn {
-
                                     background: #FFFFFF;
                                     border-radius: 10px;
                                     width: 178px;
@@ -1298,6 +1084,7 @@ label {
                         .col-lg-5 {
                             img {
                                 width: 598px;
+                                object-fit: contain;
                                 height: 450px;
                             }
                         }
@@ -1306,6 +1093,8 @@ label {
             }
 
             #card {
+                margin-top: 330px;
+
                 .container {
                     .row {
                         .col-lg-4 {
@@ -1505,6 +1294,7 @@ label {
                                 img {
                                     width: 724px;
                                     height: 451px;
+                                    object-fit: contain;
                                 }
                             }
                         }
@@ -1769,7 +1559,6 @@ label {
 
         @media only screen and (max-width:992px) {
             #header {
-                height: 600px;
                 padding-top: 10px;
 
                 .container {
@@ -1788,6 +1577,10 @@ label {
                     z-index: 3000;
                     display: block;
                 }
+            }
+
+            .banner-simple-title br {
+                display: none;
             }
 
             main {
@@ -1835,6 +1628,12 @@ label {
 
                 #hakkimizda {
                     .container {
+                        .hk-simple-title {
+                            br {
+                                display: none;
+                            }
+                        }
+
                         .row {
                             .col-lg-7 {
                                 text-align: center;
@@ -1867,6 +1666,10 @@ label {
 
                                 .second-p {
                                     margin-bottom: 55px;
+
+                                    br {
+                                        display: none;
+                                    }
                                 }
                             }
 
@@ -1885,7 +1688,9 @@ label {
                 }
 
                 .banner {
-                    background-size: 100% 550px;
+                    background-size: cover;
+                    height: fit-content;
+                    padding-top: 20px;
 
                     .container {
                         .row {
@@ -1908,17 +1713,13 @@ label {
                                     }
                                 }
                             }
-
-                            .col-lg-5 {
-                                img {
-                                    display: none;
-                                }
-                            }
                         }
                     }
                 }
 
                 #card {
+                    margin-top: 500px;
+
                     .container {
                         .row {
                             .card-item {
@@ -2058,8 +1859,20 @@ label {
 
         @media only screen and (max-width:576px) {
             #header {
+                height: 400px;
+
                 .openMenu {
                     right: 15px;
+                }
+            }
+
+            main {
+
+                #services-area,
+                #hakkimizda,
+                #blog,
+                #form {
+                    padding-top: 50px;
                 }
             }
         }
